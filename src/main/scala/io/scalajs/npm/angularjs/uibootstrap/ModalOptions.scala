@@ -1,13 +1,11 @@
 package io.scalajs.npm.angularjs.uibootstrap
 
 import scala.scalajs.js
-import scala.scalajs.js.annotation.ScalaJSDefined
 
 /**
   * Modal Options
   * @author lawrence.daniels@gmail.com
   */
-@ScalaJSDefined
 class ModalOptions(var template: js.UndefOr[String] = js.undefined,
                    var templateUrl: js.UndefOr[String] = js.undefined,
                    var controller: js.UndefOr[String] = js.undefined,
